@@ -1,0 +1,129 @@
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand h1">
+        <img src="./assets/imagenes/Group 439.png" class="img-logo">
+      </span>      
+      <div>
+      <!-- Example single danger button -->
+<div class="btn-group">
+    
+    <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="bi bi-person-circle"></i>
+    </button>
+    <ul class="dropdown-menu dropdown-menu-lg-end">
+      <li><a class="dropdown-item" href="#">Inicio</a></li>
+      <li><a class="dropdown-item" href="#">Perfil</a></li>
+      <li><a class="dropdown-item" href="#">Recetas</a></li>
+      <li><a class="dropdown-item" href="#">configuracion</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
+    </ul>
+  
+</div>   
+
+</div>  
+</div>
+</nav>
+
+
+
+<div class="block-center">
+    <app-aside></app-aside>
+    <div class="section">   
+        <h1>Kitchen Recipes</h1>
+    
+
+     <div class="row">
+        <div class="mb-3 col-sm-5">
+            <label for="exampleFormControlInput1" class="form-label">Ingredientes</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>        
+         </div>
+         <div class="mb-3 col-sm-5">
+            <label for="exampleFormControlTextarea1" class="form-label">Que se necesita para prepararla</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+          </div>
+        </div>
+
+          <div class="mb-3 col-sm-10">
+            <label for="exampleFormControlTextarea1" class="form-label">Preparacion</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"></textarea>
+          </div>
+
+         <div class="row">
+          <div class="mb-3 col-sm-3">  
+          <label for="exampleFormControlInput1" class="form-label">Tiempo de preparacion</label>
+          <input class="form-control form-control" type="text" placeholder="Ej: 45 minutos" aria-label=".form-control-lg example">
+          </div>
+          <div class="mb-3 col-sm-3"> 
+          <label for="exampleFormControlInput1" class="form-label">Calorias</label>
+          <input class="form-control form-control" type="text" placeholder="Ej: 300 Kcal" aria-label=".form-control-lg example">
+          </div>       
+          <div class="mb-3 col-sm-3">
+          <label for="exampleFormControlInput1" class="form-label">Es Vegana</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Elija una opcion</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>            
+          </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mb-3 col-sm-3">
+          <label for="exampleFormControlInput1" class="form-label">Es apta para celiacos</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Elija una opcion</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>            
+          </select>
+          </div>
+          <div class="mb-3 col-sm-3">
+          <label for="exampleFormControlInput1" class="form-label">Es apta para hipertensos</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Elija una opcion</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>            
+          </select>
+          </div>
+          <div class="mb-3 col-sm-3"> 
+          <label for="exampleFormControlInput1" class="form-label">Es vegetariana</label>          
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Elija una opcion</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>            
+          </select>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="mb-3 col-sm-3">
+          <label for="exampleFormControlInput1" class="form-label">Precio estimado si se conoce</label>
+          <input class="form-control form-control" type="text" placeholder="Ej: 3 Dolares" aria-label=".form-control-lg example">
+          </div>
+          <div class="mb-3 col-sm-3">
+          <label for="exampleFormControlInput1" class="form-label">Es comida tipica</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Elija una opcion</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>            
+          </select>
+          </div>
+          <div class="mb-3 col-sm-3">
+          <label for="exampleFormControlInput1" class="form-label">Origen de la receta</label>
+          <input class="form-control form-control" type="text" placeholder="Ej: India" aria-label=".form-control-lg example">
+          </div>
+        </div>
+         
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end guardar">
+            <button class="btn btn-primary" type="button">Guardar</button>
+            <button class="btn btn-primary" type="button">Cancelar</button>
+        </div>
+
+        </div>
+</div>        
+
+
+
+
+
+

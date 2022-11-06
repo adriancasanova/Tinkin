@@ -1,0 +1,57 @@
+.block-center {
+    display: flex;
+    }
+ .menu { 
+    margin-right: 15px;
+ }   
+
+ .section h1{     
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+.section {      
+  
+    padding-top: 1rem;
+    margin-left: 2rem;
+}
+
+.botones-horizontales {
+    padding-top: 1rem;  
+    width: 900px;
+    display: inline-flex;
+
+}
+
+.filtro-perfil {
+  
+  width: 300px;
+}
+
+
+/* Prueba ed subrayado */
+
+.botones-horizontales a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.botones-horizontales a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+#div1 {
+    overflow:scroll;
+    height:670px;
+    width:100%;
+}
+#div1 table {
+   width: 100%;  
+}
+
+.pagination {
+    margin-bottom: 0px !important;
+}

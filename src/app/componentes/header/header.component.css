@@ -1,0 +1,11 @@
+nav {
+    border-bottom: 0.5px solid rgb(195, 239, 255);
+}
+
+section {
+    background-color: green;
+}
+.img-logo {
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+}
